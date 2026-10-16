@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SMK HUTAMA - Website Resmi</title>
+    <link rel="icon" type="image/png" href="https://files.catbox.moe/ouuuab.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- ===== Navbar ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar-inner">
+            <a href="#beranda" class="logo smooth-logo" aria-label="Kembali ke beranda">
+                <img src="https://files.catbox.moe/ouuuab.png" alt="Logo SMK HUTAMA" class="school-logo" onerror="this.style.display='none'" />
+                <span class="brand-text">SMK HUTAMA</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#profil">Profil</a></li>
+                <li><a href="#jurusan">Jurusan</a></li>
+                <li><a href="#berita">Berita</a></li>
+                <li><a href="#ppdb" class="nav-cta">PPDB Online</a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="Buka menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ===== Hero ===== -->
+    <header id="beranda" class="hero">
+        <div class="hero-card">
+            <span class="hero-badge"><i class="fa-solid fa-award"></i> Sekolah Kejuruan Terpercaya</span>
+            <h1 class="hero-title">
+                Membangun Generasi<br />
+                <span class="hero-eyebrow">Unggul · Kreatif · Berkarakter</span>
+            </h1>
+            <p class="hero-desc">Pusat pendidikan kejuruan dengan fasilitas modern, praktik industri langsung, dan kurikulum yang selaras dengan dunia kerja.</p>
+            <div class="hero-actions">
+                <a href="#ppdb" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i> Daftar Sekarang (PPDB)</a>
+                <a href="#jurusan" class="btn btn-outline"><i class="fa-solid fa-compass"></i> Lihat Jurusan</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat"><span class="stat-num">1.200+</span><span class="stat-label">Siswa Aktif</span></div>
+                <div class="stat"><span class="stat-num">96%</span><span class="stat-label">Lulus & Bekerja/Kuliah</span></div>
+                <div class="stat"><span class="stat-num">35+</span><span class="stat-label">Mitra Industri</span></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== Profil ===== -->
+    <section id="profil" class="section">
+        <div class="section-inner">
+            <div class="section-head">
+                <span class="section-eyebrow">Tentang Kami</span>
+                <h2>Profil & Visi Misi</h2>
+                <p class="section-desc">Selamat datang di SMK HUTAMA, tempat siswa tidak hanya menguasai teori, tetapi juga keterampilan praktis siap kerja.</p>
+            </div>
+            <div class="profile-grid">
+                <div class="card card-soft">
+                    <div class="card-icon"><i class="fa-solid fa-user-tie"></i></div>
+                    <h3>Sambutan Kepala Sekolah</h3>
+                    <p>“Kami mendidik siswa-siswi tidak hanya menguasai teori, tetapi juga memiliki keterampilan praktis yang siap bersaing di dunia kerja maupun berwirausaha mandiri.”</p>
+                    <span class="author">- Dra.Sufida Ambarwati</span>
+                </div>
+                <div class="card card-soft">
+                    <div class="card-icon"><i class="fa-solid fa-bullseye"></i></div>
+                    <h3>Visi & Misi Utama</h3>
+                    <p><strong>Visi:</strong> Menjadi sekolah kejuruan pilihan utama yang menghasilkan lulusan berakhlak mulia, kompeten, dan adaptif terhadap teknologi.</p>
+                    <p><strong>Misi:</strong> Menyelenggarakan pembelajaran berbasis praktik industri, meningkatkan kompetensi guru, serta memperluas jaringan kerja sama dunia usaha.</p>
+                </div>
+                <div class="card card-soft highlight">
+                    <div class="card-icon"><i class="fa-solid fa-handshake-angle"></i></div>
+                    <h3>Mengapa Memilih Kami?</h3>
+                    <p>Fasilitas laboratorium lengkap, magang bersama mitra industri, serta program bakti sosial dan kewirausahaan sejak dini.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Jurusan ===== -->
+    <section id="jurusan" class="section section-alt">
+        <div class="section-inner">
+            <div class="section-head">
+                <span class="section-eyebrow">Program Keahlian</span>
+                <h2>Jurusan & Kompetensi Keahlian</h2>
+                <p class="section-desc">Pilih jalur yang sesuai dengan minat dan bakatmu. Setiap program dilengkapi pembelajaran teori dan praktik sesuai bidangnya.</p>
+            </div>
+            <div class="card-container">
+                <div class="card card-jurusan">
+                    <div class="card-img" style="background:#1e293b;">
+                        <i class="fa-solid fa-server fa-4x text-secondary"></i>
+                    </div>
+                    <h3>Teknik Komputer & Jaringan (TKJ)</h3>
+                    <p>Fokus pada administrasi server, konfigurasi router MikroTik, keamanan jaringan, dan fiber optic.</p>
+                    <a href="#ppdb" class="card-link">Daftar TKJ <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="card card-jurusan">
+                    <div class="card-img" style="background:#0f766e;">
+                        <i class="fa-solid fa-calculator fa-4x text-secondary"></i>
+                    </div>
+                    <h3>Akuntansi</h3>
+                    <p>Mempelajari pencatatan transaksi, penyusunan laporan keuangan, perpajakan, serta penggunaan aplikasi akuntansi untuk kebutuhan dunia kerja.</p>
+                    <a href="#ppdb" class="card-link">Daftar AKT <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="card card-jurusan">
+                    <div class="card-img" style="background:#9d1709;">
+                        <i class="fa-solid fa-car-side fa-4x text-secondary"></i>
+                    </div>
+                    <h3>Teknik Kendaraan Ringan (TKR)</h3>
+                    <p>Mempelajari perawatan, pemeriksaan, dan perbaikan kendaraan ringan, termasuk mesin, sistem kelistrikan, serta sasis kendaraan.</p>
+                    <a href="#ppdb" class="card-link">Daftar TKR <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="card card-jurusan">
+                    <div class="card-img" style="background:#6d28d9;">
+                        <i class="fa-solid fa-video fa-4x text-secondary"></i>
+                    </div>
+                    <h3>Broadcast</h3>
+                    <p>Mempelajari proses produksi siaran, mulai dari pengambilan gambar dan penyuntingan video hingga teknik penyiaran.</p>
+                    <a href="#ppdb" class="card-link">Daftar Broadcast <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="card card-jurusan">
+                    <div class="card-img" style="background:#0369a1;">
+                        <i class="fa-solid fa-briefcase fa-4x text-secondary"></i>
+                    </div>
+                    <h3>Administrasi Perkantoran (AP/MP)</h3>
+                    <p>Mempelajari pengelolaan dokumen, korespondensi, pengarsipan, pelayanan administrasi, dan penggunaan aplikasi perkantoran.</p>
+                    <a href="#ppdb" class="card-link">Daftar MP <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Berita ===== -->
+    <section id="berita" class="section">
+        <div class="section-inner">
+            <div class="section-head">
+                <span class="section-eyebrow">Berita & Pengumuman</span>
+                <h2>Update Terbaru Dari Sekolah</h2>
+            </div>
+            <div class="card-container">
+                <article class="card card-news">
+                    <span class="news-meta"><span class="news-date">10 Oktober 2026</span><span class="news-tag">Pengumuman</span></span>
+                    <h3>Jadwal Ujian Praktik Kejuruan</h3>
+                    <p>Pengumuman penting mengenai persiapan dan jadwal pelaksanaan uji kompetensi keahlian semester ganjil.</p>
+                    <a href="#ppdb" class="btn btn-sm btn-outline">Baca Selengkapnya <i class="fa-solid fa-arrow-right"></i></a>
+                </article>
+                <article class="card card-news">
+                    <span class="news-meta"><span class="news-date">28 September 2026</span><span class="news-tag">Kegiatan</span></span>
+                    <h3>Kunjungan Industri ke Perusahaan IT</h3>
+                    <p>Siswa kelas XI mengikuti program wawasan kerja langsung ke pusat data dan perusahaan teknologi mitra.</p>
+                    <a href="#ppdb" class="btn btn-sm btn-outline">Baca Selengkapnya <i class="fa-solid fa-arrow-right"></i></a>
+                </article>
+                <article class="card card-news highlight-card">
+                    <span class="news-meta"><span class="news-date">15 September 2026</span><span class="news-tag news-tag-primary">PPDB</span></span>
+                    <h3>PPDB 2026/2027 Resmi Dibuka</h3>
+                    <p>Calon siswa baru SMK HUTAMA dapat mendaftar melalui formulir online di bawah secara gratis.</p>
+                    <a href="#ppdb" class="btn btn-sm btn-primary">Daftar Sekarang <i class="fa-solid fa-arrow-right"></i></a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PPDB ===== -->
+    <section id="ppdb" class="section section-alt">
+        <div class="section-inner">
+            <div class="section-head">
+                <span class="section-eyebrow">PPDB Online</span>
+                <h2>Formulir Pendaftaran Siswa Baru</h2>
+                <p class="section-desc">Daftarkan dirimu secara gratis. Informasi yang kamu berikan akan kami rancang untuk proses seleksi & komunikasi tahap berikutnya.</p>
+            </div>
+            <div class="ppdb-form-card">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="namalengkap">Nama Lengkap <span class="required">*</span></label>
+                            <input type="text" id="namalengkap" name="namalengkap" placeholder="Contoh: Andi Pratama" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="nik">NISN / No. Induk <span class="required">*</span></label>
+                            <input type="text" id="nik" name="nik" placeholder="Masukkan NISN" required />
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="level">Jenjang Pilihan <span class="required">*</span></label>
+                            <select id="level" name="level" required>
+                                <option value="">-- Pilih Jenjang --</option>
+                                <option value="smp">SMP (Kelas 7)</option>
+                                <option value="smk">SMK (Kelas 10)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="asal-sekolah">Asal Sekolah <span class="required">*</span></label>
+                            <input type="text" id="asal-sekolah" name="asal-sekolah" placeholder="Nama sekolah asal" required />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="pilihan-jurusan">Program Keahlian / Peminatan <span class="required">*</span></label>
+                        <select id="pilihan-jurusan" name="pilihan-jurusan" required>
+                            <option value="">-- Pilih Program --</option>
+                            <option value="tkj">Teknik Komputer &amp; Jaringan (TKJ)</option>
+                            <option value="akuntansi">Akuntansi</option>
+                            <option value="tkr">Teknik Kendaraan Ringan (TKR)</option>
+                            <option value="broadcast">Broadcast</option>
+                            <option value="mp">Administrasi Perkantoran (MP)</option>
+                        </select>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="tempat-lahir">Tempat, Tanggal Lahir <span class="required">*</span></label>
+                            <input type="text" id="tempat-lahir" name="tempat-lahir" placeholder="Contoh: Bekasi, 1 Jan 2011" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="whatsapp">Nomor WhatsApp Aktif <span class="required">*</span></label>
+                            <div class="input-with-icon">
+                                <i class="fa-solid fa-phone"></i>
+                                <input type="tel" id="whatsapp" name="whatsapp" placeholder="08123456789" required />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email (untuk informasi pendaftaran)</label>
+                        <input type="email" id="email" name="email" placeholder="contoh@email.com" />
+                    </div>
+                    <div class="form-group checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="setuju" required />
+                            <span>Saya menyetujui kebijakan pendaftaran dan bersedia dihubungi terkait proses PPDB.</span>
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full"><i class="fa-solid fa-paper-plane"></i> Kirim Pendaftaran</button>
+                    <p class="form-note">Setelah dikirim, tim PPDB akan menghubungi kamu melalui WhatsApp dalam 1–2 hari kerja.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Footer ===== -->
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <img src="https://files.catbox.moe/ouuuab.png" alt="Logo SMK &amp; SMK Hutama" class="school-logo small" onerror="this.style.display='none'" />
+                <div>
+                    <h4>SMK HUTAMA</h4>
+                    <p>Mendidik generasi unggul, kreatif, dan berkarakter untuk masa depan Indonesia.</p>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h5>Navigasi</h5>
+                    <a href="#beranda">Beranda</a>
+                    <a href="#profil">Profil</a>
+                    <a href="#jurusan">Jurusan</a>
+                    <a href="#berita">Berita</a>
+                </div>
+                <div class="footer-col">
+                    <h5>Kontak</h5>
+                    <a href="tel:02184990823"><i class="fa-solid fa-phone"></i> (021) 1234-5678</a>
+                    <a href="mailto:info@smkhutama.sch.id"><i class="fa-solid fa-envelope"></i> info@smkhutama.sch.id</a>
+                    <p><i class="fa-solid fa-location-dot"></i> Jl. Raya Hankam No.37, Kota Bekasi</p>
+                </div>
+                <div class="footer-col">
+                    <h5>Media Sosial</h5>
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/smkhutamabekasi/" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 SMK HUTAMA. Seluruh Hak Cipta Dilindungi.</p>
+        </div>
+    </footer>
+
+    <!-- Mobile menu overlay -->
+    <div class="mobile-nav" id="mobileNav" aria-hidden="true">
+        <a href="#beranda" class="mobile-link">Beranda</a>
+        <a href="#profil" class="mobile-link">Profil</a>
+        <a href="#jurusan" class="mobile-link">Jurusan</a>
+        <a href="#berita" class="mobile-link">Berita</a>
+        <a href="#ppdb" class="mobile-link mobile-cta">PPDB Online</a>
+    </div>
+
+
+</body>
+</html>
